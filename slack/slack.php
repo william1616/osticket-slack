@@ -20,7 +20,7 @@ class SlackPlugin extends Plugin {
 								array (	
 									'pretext' => "New Ticket <" . $ost->getConfig()->getUrl() . "scp/tickets.php?id=" 
 												. $ticket->getId() . "|#" . $ticket->getNumber() . "> created",
-									'fallback' => "New Ticket <" . $ost->getConfig()->getUrl() . "scp/tickets.php?id=" 
+									'fallback' => "New Ticket <" . $ost->getConfig()->getUrl() . "/scp/tickets.php?id=" 
 												. $ticket->getId() . "|#" . $ticket->getNumber() . "> created",
 									'color' => "#D00000",
 									'fields' => 
