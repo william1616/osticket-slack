@@ -18,7 +18,7 @@ class SlackPlugin extends Plugin {
 						'attachments' =>
 							array (
 								array (	
-									'pretext' => "New Ticket <" . $ost->getConfig()->getUrl() . "scp/tickets.php?id=" 
+									'pretext' => "New Ticket <" . $ost->getConfig()->getUrl() . "/scp/tickets.php?id=" 
 												. $ticket->getId() . "|#" . $ticket->getNumber() . "> created",
 									'fallback' => "New Ticket <" . $ost->getConfig()->getUrl() . "/scp/tickets.php?id=" 
 												. $ticket->getId() . "|#" . $ticket->getNumber() . "> created",
